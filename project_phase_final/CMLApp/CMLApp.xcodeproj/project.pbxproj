@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F232630529F853CB0031903E /* EDAGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232630429F853CB0031903E /* EDAGraph.swift */; };
 		F232630729F864010031903E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232630629F864010031903E /* CircleImage.swift */; };
+		F232630D2A019E810031903E /* state_data.json in Resources */ = {isa = PBXBuildFile; fileRef = F232630C2A019E810031903E /* state_data.json */; };
 		F2DEBCDC29ECD61E004A6041 /* CMLAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DEBCDB29ECD61E004A6041 /* CMLAppApp.swift */; };
 		F2DEBCDE29ECD61E004A6041 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DEBCDD29ECD61E004A6041 /* ContentView.swift */; };
 		F2DEBCE029ECD620004A6041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DEBCDF29ECD620004A6041 /* Assets.xcassets */; };
@@ -22,7 +23,6 @@
 		F2DEBD0E29EDCAD5004A6041 /* MotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DEBD0D29EDCAD5004A6041 /* MotionDetector.swift */; };
 		F2DEBD1029EDCAFA004A6041 /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DEBD0F29EDCAFA004A6041 /* LineGraph.swift */; };
 		F2DEBD1229EDCB26004A6041 /* GraphSeismometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DEBD1129EDCB26004A6041 /* GraphSeismometer.swift */; };
-		F2DEBD1729EF32A3004A6041 /* state_data.json in Resources */ = {isa = PBXBuildFile; fileRef = F2DEBD1629EF32A3004A6041 /* state_data.json */; };
 		F2F56E0D29EF3C9D00FCD7F5 /* Arousal_state.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F56E0C29EF3C9D00FCD7F5 /* Arousal_state.swift */; };
 		F2F56E0F29EF3E6600FCD7F5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F56E0E29EF3E6600FCD7F5 /* ModelData.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +47,7 @@
 /* Begin PBXFileReference section */
 		F232630429F853CB0031903E /* EDAGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDAGraph.swift; sourceTree = "<group>"; };
 		F232630629F864010031903E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F232630C2A019E810031903E /* state_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = state_data.json; path = ../../../../../../state_data.json; sourceTree = "<group>"; };
 		F2DEBCD829ECD61E004A6041 /* CMLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DEBCDB29ECD61E004A6041 /* CMLAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMLAppApp.swift; sourceTree = "<group>"; };
 		F2DEBCDD29ECD61E004A6041 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		F2DEBD0D29EDCAD5004A6041 /* MotionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetector.swift; sourceTree = "<group>"; };
 		F2DEBD0F29EDCAFA004A6041 /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
 		F2DEBD1129EDCB26004A6041 /* GraphSeismometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphSeismometer.swift; sourceTree = "<group>"; };
-		F2DEBD1629EF32A3004A6041 /* state_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = state_data.json; path = ../../../../state_data.json; sourceTree = "<group>"; };
 		F2F56E0C29EF3C9D00FCD7F5 /* Arousal_state.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arousal_state.swift; sourceTree = "<group>"; };
 		F2F56E0E29EF3E6600FCD7F5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,8 +127,8 @@
 				F2DEBD0929EDC6B6004A6041 /* InteractiveBurshing.swift */,
 				F232630429F853CB0031903E /* EDAGraph.swift */,
 				F232630629F864010031903E /* CircleImage.swift */,
+				F232630C2A019E810031903E /* state_data.json */,
 				F2DEBD0B29EDC6D1004A6041 /* Data.swift */,
-				F2DEBD1629EF32A3004A6041 /* state_data.json */,
 				F2DEBCDF29ECD620004A6041 /* Assets.xcassets */,
 				F2DEBCE129ECD620004A6041 /* Preview Content */,
 			);
@@ -264,7 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2DEBD1729EF32A3004A6041 /* state_data.json in Resources */,
+				F232630D2A019E810031903E /* state_data.json in Resources */,
 				F2DEBCE329ECD620004A6041 /* Preview Assets.xcassets in Resources */,
 				F2DEBCE029ECD620004A6041 /* Assets.xcassets in Resources */,
 			);
